@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/wordListFragment">
+
+    <fragment
+        android:id="@+id/wordListFragment"
+        android:name="com.gamzecoskun.duocards.ui.WordListFragment"
+        android:label="Word List" >
+        <action
+            android:id="@+id/actionWordListFragmentToWordDetailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/learnedWordsFragment"
+        android:name="com.gamzecoskun.duocards.ui.LearnedWordsFragment"
+        android:label="Learned Words" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.gamzecoskun.duocards.ui.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="selectedWord"
+            app:argType="com.gamzecoskun.duocards.Word" />
+    </fragment>
+</navigation>
