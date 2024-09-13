@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/wordListFragment"
-        android:name="com.gamzecoskun.duocards.ui.WordListFragment"
+        android:name="com.gamzecoskun.duocards.ui.word.WordListFragment"
         android:label="Word List" >
         <action
             android:id="@+id/actionWordListFragmentToWordDetailFragment"
@@ -16,15 +16,22 @@
 
     <fragment
         android:id="@+id/learnedWordsFragment"
-        android:name="com.gamzecoskun.duocards.ui.LearnedWordsFragment"
-        android:label="Learned Words" />
+        android:name="com.gamzecoskun.duocards.ui.learnedWords.LearnedWordsFragment"
+        android:label="Learned Words" >
+        <action
+            android:id="@+id/actionLearnedWordsFragmentToWordDetailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.gamzecoskun.duocards.ui.DetailFragment"
+        android:name="com.gamzecoskun.duocards.ui.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <argument
             android:name="selectedWord"
-            app:argType="com.gamzecoskun.duocards.Word" />
+            app:argType="com.gamzecoskun.duocards.data.model.Word" />
+        <action
+            android:id="@+id/action_detailFragment_to_learnedWordsFragment"
+            app:destination="@id/learnedWordsFragment" />
     </fragment>
 </navigation>
