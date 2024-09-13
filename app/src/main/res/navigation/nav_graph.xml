@@ -34,4 +34,12 @@
             android:id="@+id/action_detailFragment_to_learnedWordsFragment"
             app:destination="@id/learnedWordsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/puzzleFragment"
+        android:name="com.gamzecoskun.duocards.ui.puzzle.PuzzleFragment"
+        android:label="PuzzleFragment" />
+    <fragment
+        android:id="@+id/wordComparisonFragment"
+        android:name="com.gamzecoskun.duocards.ui.wordcomparison.WordComparisonFragment"
+        android:label="WordComparisonFragment" />
 </navigation>
