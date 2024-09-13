@@ -69,5 +69,7 @@ dependencies {
     implementation (libs.glide)
     kapt (libs.glide.compiler)
 
+    implementation(libs.androidx.core.splashscreen)
+
 }
 
