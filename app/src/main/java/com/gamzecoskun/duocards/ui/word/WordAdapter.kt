@@ -1,9 +1,11 @@
-package com.gamzecoskun.duocards.ui
+package com.gamzecoskun.duocards.ui.word
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.gamzecoskun.duocards.Word
+import com.bumptech.glide.Glide
+import com.gamzecoskun.duocards.R
+import com.gamzecoskun.duocards.data.model.Word
 import com.gamzecoskun.duocards.databinding.ItemwordBinding
 
 /***
@@ -21,7 +23,12 @@ class WordAdapter(
         fun bind(word: Word) {
             binding.englishWordText.text = word.englishWord
             binding.turkishWordText.text = word.turkishWord
-            binding.imageView.setImageResource(word.imageResId) // Drawable resmi yükleme
+
+            Glide.with(binding.imageView.context)
+                .load(word.imageResId)
+                .placeholder(R.drawable.ic_word)
+                .error(R.drawable.ic_learned)
+                .into(binding.imageView)
 
             binding.root.setOnClickListener {
                 onClick(word)
@@ -40,14 +47,12 @@ class WordAdapter(
 
     override fun getItemCount(): Int = wordList.size
 
-    fun updateList(list:List<Word>){
+    fun updateList(newWordList: List<Word>){
         wordList.clear()
-        wordList.addAll(list)
+        wordList.addAll(newWordList)
         notifyDataSetChanged()
     }
-
 }
-
 
 
 
