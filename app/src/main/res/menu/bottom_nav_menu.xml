@@ -10,4 +10,14 @@
         android:icon="@drawable/ic_learned"
         android:title="@string/learned" />
 
+    <item
+        android:id="@+id/puzzleFragment"
+        android:icon="@drawable/ic_puzzle"
+        android:title="@string/wordgame"/>
+
+    <item
+        android:id="@+id/wordComparisonFragment"
+        android:icon="@drawable/ic_comparison"
+        android:title="@string/comparison"/>
+
 </menu>
