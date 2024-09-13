@@ -220,5 +220,125 @@
     "turkishWord": "Bıçak",
     "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/knife.png?alt=media&token=0edb471a-7de4-4de7-ab72-6b02091293e5",
     "isLearned": false
+  },
+  {
+    "englishWord": "Bread",
+    "turkishWord": "Ekmek",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/white-bread.png?alt=media&token=2278a60b-cf31-45a0-9227-d5146189efe5",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Rain",
+    "turkishWord": "Yağmur",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/heavy-rain.png?alt=media&token=3a6cf8d5-ff3b-46b2-b604-2d1595b3b6f2",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Fire",
+    "turkishWord": "Ateş",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/bonfire.png?alt=media&token=bba972dd-1229-43ad-89a6-c75b897b25cc",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Lake",
+    "turkishWord": "Göl",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/lake.png?alt=media&token=b73ea4dc-db2a-447b-83fb-5540d435da6c",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Apple",
+    "turkishWord": "Elma",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/apple.png?alt=media&token=2775c557-be9d-47fa-9f43-2e54b47d33d1",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Butterfly",
+    "turkishWord": "Kelebek",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/butterfly.png?alt=media&token=ccef41ff-7002-432a-90a2-bab7cc34f769",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Train",
+    "turkishWord": "Tren",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/toy-train.png?alt=media&token=e98b0dbb-d27d-437a-b105-c5a4b2bb6e55",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Music",
+    "turkishWord": "Müzik",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/music.png?alt=media&token=4245fbb0-1ad0-40c3-809b-3c5250a59e2d",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Snow",
+    "turkishWord": "Kar",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/snow.png?alt=media&token=2632300e-ad5e-468d-850a-3a91625a573d",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Clock",
+    "turkishWord": "Saat",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/alarm-clock.png?alt=media&token=e820c1bf-54f5-455d-aaeb-5373ee5315b7",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Milk",
+    "turkishWord": "Süt",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/milk.png?alt=media&token=9e4ad419-8861-45fa-98bd-36effd5050f6",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Bridge",
+    "turkishWord": "Köprü",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/golden-gate-bridge.png?alt=media&token=a56a3b1a-bb18-4075-a36a-8dc3768953d5",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Forest",
+    "turkishWord": "Orman",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/forest.png?alt=media&token=6d58f035-f0d8-4b8d-8860-4ad4a14f0176",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Island",
+    "turkishWord": "Ada",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/buildings.png?alt=media&token=cc760c68-690d-4733-a0ad-f0b08c6e3c98",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Laptop",
+    "turkishWord": "Dizüstü Bilgisayar",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/programming.png?alt=media&token=c78ea145-e43d-475b-9481-090817198ef1",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Garden",
+    "turkishWord": "Bahçe",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/garden.png?alt=media&token=01c950ba-ccba-4117-a5ca-056edeb2a6f1",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Beach",
+    "turkishWord": "Plaj",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/vacations.png?alt=media&token=e096a2ea-4cb1-467d-9c2f-020b7054d1e9",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Pencil",
+    "turkishWord": "Kalem",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/pencil.png?alt=media&token=22189472-ab7c-4a7b-87f6-060f31385e94",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Notebook",
+    "turkishWord": "Defter",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/notebook.png?alt=media&token=51f3a49d-4212-4ca1-9845-c9dc7735e580",
+    "isLearned": false
+  },
+  {
+    "englishWord": "Road",
+    "turkishWord": "Yol",
+    "imageResId": "https://firebasestorage.googleapis.com/v0/b/ad-4-firebase.appspot.com/o/road-map.png?alt=media&token=041495d4-4bf6-486b-9b73-7ed2b5aa5ad7",
+    "isLearned": false
   }
 ]
