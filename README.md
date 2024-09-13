@@ -1,41 +1,51 @@
-LanguageCart
-LanguageCart is an Android application designed to enhance your language learning process in an engaging and effective way.
+# LanguageCart
 
-Features
-Words: Add, edit, and view words in various languages.
-Learning Tracking: Track learned words and your progress.
-Games: Improve your learning process with fun language games.
-Technologies
-Kotlin
-Android 
-LiveData
-ViewModel
-Installation
-Clone the Repository:
+*LanguageCart* is an Android application designed to enhance your language learning process in an engaging and effective way. The current version is *1.0, with exciting future updates planned, including a **Splash Screen* and *Onboarding* experience to make the app even more user-friendly and visually appealing.
 
-bash
-Kodu kopyala
-git clone https://github.com/Gamzecoskkun/languageCart.git
-Open in Android Studio:
+## Features
 
-Open Android Studio and load the project.
-Install Dependencies:
+- *Words:* Add, edit, and view words in various languages.
+- *Learning Tracking:* Track learned words and monitor your progress.
+- *Games:* Improve your learning with fun language games.
 
-Click Sync Project with Gradle Files.
-Run the Project:
+## Technologies
 
-Click Run to start the application.
-Usage
-Home Screen: Access the word list and add new words.
-Learning Tracking: Monitor your progress.
-Games: Play language games.
-Contributing
-Fork the repository.
-Create a new branch.
-Make and commit your changes.
-Push the branch and create a pull request.
-License
-This project is licensed under the MIT License.
+- Kotlin
+- Android
+- LiveData
+- ViewModel
+
+## Installation
+
+1. Clone the repository:
+
+   bash
+   git clone https://github.com/Gamzecoskkun/languageCart.git
+   
+
+2. Open the project in Android Studio.
+3. Sync with Gradle files.
+4. Click *Run* to start the app.
+
+## Usage
+
+- *Home Screen:* Access word lists and add new words.
+- *Learning Tracking:* Monitor progress.
+- *Games:* Play language games.
+
+## Future Updates
+
+- *Splash Screen*: A visually captivating introduction to the app.
+- *Onboarding*: A guided setup for new users to get started with ease.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make and commit your changes.
+4. Push the branch and create a pull request.
+
+
 
 
 
