@@ -7,4 +7,6 @@
     <string name="word_image">word_image</string>
     <string name="english_word">English Word</string>
     <string name="turkish_word">Turkish Word</string>
+    <string name="wordgame">WordGame</string>
+    <string name="comparison">comparison</string>
 </resources>
