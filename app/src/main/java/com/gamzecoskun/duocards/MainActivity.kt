@@ -8,7 +8,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.gamzecoskun.duocards.common.viewBinding
 import com.gamzecoskun.duocards.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private val binding by viewBinding(ActivityMainBinding::inflate)
