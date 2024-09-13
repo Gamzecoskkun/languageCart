@@ -2,6 +2,7 @@ package com.gamzecoskun.duocards
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
@@ -23,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-
         val navHostController = supportFragmentManager
             .findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         navController = navHostController.navController
@@ -42,6 +42,15 @@ class MainActivity : AppCompatActivity() {
                     navController.navigate(R.id.learnedWordsFragment)
                     true
                 }
+                R.id.puzzleFragment->{
+                    navController.navigate(R.id.puzzleFragment)
+                    true
+                }
+                R.id.wordComparisonFragment->{
+                    navController.navigate(R.id.wordComparisonFragment)
+                    true
+                }
+
                 else -> false
             }
         }
