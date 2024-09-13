@@ -5,12 +5,21 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.LearnedWordsFragment">
+    tools:context=".ui.learnedWords.LearnedWordsFragment">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/learnedRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="16dp"/>
+        android:layout_margin="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
